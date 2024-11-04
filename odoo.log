@@ -1,0 +1,1512 @@
+2024-11-04 05:01:03,324 31847 INFO ? odoo: Odoo version 18.0 
+2024-11-04 05:01:03,324 31847 INFO ? odoo: Using configuration file at /Users/guidowilliam/Documents/project/odooAPI/odoo.conf 
+2024-11-04 05:01:03,324 31847 INFO ? odoo: addons paths: ['/Users/guidowilliam/Documents/project/odooAPI/odoo/addons', '/Users/guidowilliam/Library/Application Support/Odoo/addons/18.0', '/Users/guidowilliam/Documents/project/odooAPI/addons'] 
+2024-11-04 05:01:03,324 31847 INFO ? odoo: database: odoo@default:default 
+2024-11-04 05:01:04,273 31847 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2024-11-04 05:01:05,199 31847 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltoimage binary at /usr/local/bin/wkhtmltoimage 
+2024-11-04 05:01:07,701 31847 INFO ? odoo.service.server: HTTP service (werkzeug) running on 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa:8069 
+2024-11-04 05:01:12,755 31847 INFO odoo odoo.modules.loading: loading 1 modules... 
+2024-11-04 05:01:12,768 31847 INFO odoo odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2024-11-04 05:01:12,780 31847 INFO odoo odoo.modules.loading: loading 12 modules... 
+2024-11-04 05:01:13,490 31847 INFO odoo odoo.modules.loading: 12 modules loaded in 0.71s, 0 queries (+0 extra) 
+2024-11-04 05:01:13,506 31847 INFO odoo odoo.modules.loading: Modules loaded. 
+2024-11-04 05:01:13,510 31847 INFO odoo odoo.modules.registry: Registry loaded in 0.786s 
+2024-11-04 05:01:13,511 31847 INFO odoo odoo.addons.base.models.ir_http: Generating routing map for key None 
+2024-11-04 05:01:13,535 31847 INFO odoo odoo.addons.base.models.res_device: User 2 inserts device log (9Lwti48luAYe4-gqKWU6aKRF_ssHziT92DisFYUlv_) 
+2024-11-04 05:01:13,551 31847 INFO odoo werkzeug: 127.0.0.1 - - [04/Nov/2024 05:01:13] "GET / HTTP/1.1" 303 - 27 0.049 0.781
+2024-11-04 05:01:13,728 31847 INFO odoo werkzeug: 127.0.0.1 - - [04/Nov/2024 05:01:13] "GET /odoo HTTP/1.1" 200 - 75 0.047 0.109
+2024-11-04 05:01:14,848 31847 INFO odoo odoo.addons.base.models.assetsbundle: Generating a new asset bundle attachment /web/assets/dd6dea8/web.assets_web.min.css (id:20) 
+2024-11-04 05:01:14,849 31847 INFO odoo odoo.addons.base.models.assetsbundle: Deleting attachments [16] (matching /web/assets/_______/web.assets_web.min.css) because it was replaced with /web/assets/dd6dea8/web.assets_web.min.css 
+2024-11-04 05:01:14,877 31847 INFO odoo werkzeug: 127.0.0.1 - - [04/Nov/2024 05:01:14] "GET /web/assets/dd6dea8/web.assets_web.min.css HTTP/1.1" 200 - 17 0.079 0.985
+2024-11-04 05:01:15,647 31847 INFO odoo odoo.addons.base.models.assetsbundle: Generating a new asset bundle attachment /web/assets/7768a02/web.assets_web_print.min.css (id:21) 
+2024-11-04 05:01:15,648 31847 INFO odoo odoo.addons.base.models.assetsbundle: Deleting attachments [17] (matching /web/assets/_______/web.assets_web_print.min.css) because it was replaced with /web/assets/7768a02/web.assets_web_print.min.css 
+2024-11-04 05:01:15,653 31847 INFO odoo werkzeug: 127.0.0.1 - - [04/Nov/2024 05:01:15] "GET /web/assets/7768a02/web.assets_web_print.min.css HTTP/1.1" 200 - 10 0.046 0.718
+2024-11-04 05:01:16,355 31847 INFO odoo odoo.addons.base.models.assetsbundle: Generating a new asset bundle attachment /web/assets/101c2e6/web.assets_web.min.js (id:22) 
+2024-11-04 05:01:16,356 31847 INFO odoo odoo.addons.base.models.assetsbundle: Deleting attachments [18] (matching /web/assets/_______/web.assets_web.min.js) because it was replaced with /web/assets/101c2e6/web.assets_web.min.js 
+2024-11-04 05:01:16,366 31847 INFO odoo werkzeug: 127.0.0.1 - - [04/Nov/2024 05:01:16] "GET /web/assets/101c2e6/web.assets_web.min.js HTTP/1.1" 200 - 13 0.011 2.541
+2024-11-04 05:01:16,478 31847 INFO odoo odoo.addons.base.models.assetsbundle: Generating a new asset bundle attachment /web/assets/cb58949/bus.websocket_worker_assets.min.js (id:23) 
+2024-11-04 05:01:16,479 31847 INFO odoo odoo.addons.base.models.assetsbundle: Deleting attachments [19] (matching /web/assets/_______/bus.websocket_worker_assets.min.js) because it was replaced with /web/assets/cb58949/bus.websocket_worker_assets.min.js 
+2024-11-04 05:01:16,480 31847 INFO odoo werkzeug: 127.0.0.1 - - [04/Nov/2024 05:01:16] "GET /bus/websocket_worker_bundle?v=18.0-2 HTTP/1.1" 304 - 10 0.003 0.008
+2024-11-04 05:01:16,505 31847 INFO odoo werkzeug: 127.0.0.1 - - [04/Nov/2024 05:01:16] "POST /web/action/load HTTP/1.1" 200 - 11 0.011 0.008
+2024-11-04 05:01:16,507 31847 INFO odoo werkzeug: 127.0.0.1 - - [04/Nov/2024 05:01:16] "GET /websocket?version=18.0-2 HTTP/1.1" 101 - 1 0.001 0.005
+2024-11-04 05:01:16,511 31847 INFO odoo werkzeug: 127.0.0.1 - - [04/Nov/2024 05:01:16] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 16 0.019 0.005
+2024-11-04 05:01:16,521 31847 INFO ? werkzeug: 127.0.0.1 - - [04/Nov/2024 05:01:16] "GET /web/static/img/favicon.ico HTTP/1.1" 200 - 0 0.000 0.003
+2024-11-04 05:01:16,525 31847 INFO odoo werkzeug: 127.0.0.1 - - [04/Nov/2024 05:01:16] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 7 0.003 0.004
+2024-11-04 05:01:16,568 31847 INFO odoo werkzeug: 127.0.0.1 - - [04/Nov/2024 05:01:16] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 57 0.031 0.017
+2024-11-04 05:01:16,576 31847 INFO odoo werkzeug: 127.0.0.1 - - [04/Nov/2024 05:01:16] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 1 0.001 0.002
+2024-11-04 05:01:16,596 31847 INFO odoo werkzeug: 127.0.0.1 - - [04/Nov/2024 05:01:16] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 48 0.016 0.006
+2024-11-04 05:01:16,597 31847 INFO odoo werkzeug: 127.0.0.1 - - [04/Nov/2024 05:01:16] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.005 0.018
+2024-11-04 05:01:16,642 31847 INFO ? werkzeug: 127.0.0.1 - - [04/Nov/2024 05:01:16] "GET /web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 - 0 0.000 0.001
+2024-11-04 05:01:16,822 31847 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2024-11-04 05:01:18,219 31847 INFO odoo werkzeug: 127.0.0.1 - - [04/Nov/2024 05:01:18] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.001 0.006
+2024-11-04 06:00:30,752 31847 INFO ? odoo.service.server: Initiating shutdown 
+2024-11-04 06:00:30,755 31847 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2024-11-04 06:00:31,041 31847 INFO ? odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 3 connections  
+2024-11-04 06:00:32,370 36799 INFO ? odoo: Odoo version 18.0 
+2024-11-04 06:00:32,371 36799 INFO ? odoo: Using configuration file at /Users/guidowilliam/Documents/project/odooAPI/odoo.conf 
+2024-11-04 06:00:32,371 36799 INFO ? odoo: addons paths: ['/Users/guidowilliam/Documents/project/odooAPI/odoo/addons', '/Users/guidowilliam/Library/Application Support/Odoo/addons/18.0', '/Users/guidowilliam/Documents/project/odooAPI/addons'] 
+2024-11-04 06:00:32,371 36799 INFO ? odoo: database: odoo@localhost:5432 
+2024-11-04 06:00:32,442 36799 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2024-11-04 06:00:33,619 36799 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltoimage binary at /usr/local/bin/wkhtmltoimage 
+2024-11-04 06:00:33,767 36799 INFO ? odoo.service.server: HTTP service (werkzeug) running on 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa:8069 
+2024-11-04 06:00:36,482 36799 INFO odoo odoo.modules.loading: loading 1 modules... 
+2024-11-04 06:00:36,491 36799 INFO odoo odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2024-11-04 06:00:36,503 36799 INFO odoo odoo.modules.loading: loading 12 modules... 
+2024-11-04 06:00:36,628 36799 INFO odoo odoo.modules.loading: 12 modules loaded in 0.13s, 0 queries (+0 extra) 
+2024-11-04 06:00:36,643 36799 INFO odoo odoo.modules.loading: Modules loaded. 
+2024-11-04 06:00:36,645 36799 INFO odoo odoo.modules.registry: Registry loaded in 0.187s 
+2024-11-04 06:00:36,646 36799 INFO odoo odoo.addons.base.models.ir_http: Generating routing map for key None 
+2024-11-04 06:00:36,667 36799 INFO odoo werkzeug: 127.0.0.1 - - [04/Nov/2024 06:00:36] "GET /websocket?version=18.0-2 HTTP/1.1" 101 - 20 0.027 0.185
+2024-11-04 06:00:36,805 36799 INFO odoo werkzeug: 127.0.0.1 - - [04/Nov/2024 06:00:36] "GET /odoo/apps HTTP/1.1" 200 - 84 0.061 0.278
+2024-11-04 06:00:36,934 36799 INFO odoo werkzeug: 127.0.0.1 - - [04/Nov/2024 06:00:36] "GET /bus/websocket_worker_bundle?v=18.0-2 HTTP/1.1" 304 - 4 0.002 0.002
+2024-11-04 06:00:36,947 36799 INFO odoo werkzeug: 127.0.0.1 - - [04/Nov/2024 06:00:36] "GET /websocket?version=18.0-2 HTTP/1.1" 101 - 1 0.000 0.002
+2024-11-04 06:00:36,952 36799 INFO odoo werkzeug: 127.0.0.1 - - [04/Nov/2024 06:00:36] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 16 0.008 0.005
+2024-11-04 06:00:36,962 36799 INFO odoo werkzeug: 127.0.0.1 - - [04/Nov/2024 06:00:36] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 7 0.003 0.003
+2024-11-04 06:00:37,129 36799 INFO odoo werkzeug: 127.0.0.1 - - [04/Nov/2024 06:00:37] "POST /web/action/load HTTP/1.1" 200 - 12 0.009 0.182
+2024-11-04 06:00:37,166 36799 INFO odoo werkzeug: 127.0.0.1 - - [04/Nov/2024 06:00:37] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 56 0.021 0.012
+2024-11-04 06:00:37,175 36799 INFO odoo werkzeug: 127.0.0.1 - - [04/Nov/2024 06:00:37] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 1 0.001 0.004
+2024-11-04 06:00:37,192 36799 INFO odoo werkzeug: 127.0.0.1 - - [04/Nov/2024 06:00:37] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.004 0.018
+2024-11-04 06:00:37,196 36799 INFO odoo werkzeug: 127.0.0.1 - - [04/Nov/2024 06:00:37] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 48 0.018 0.009
+2024-11-04 06:00:37,313 36799 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2024-11-04 06:00:38,502 36799 INFO odoo werkzeug: 127.0.0.1 - - [04/Nov/2024 06:00:38] "GET /web/session/logout HTTP/1.1" 303 - 1 0.001 0.008
+2024-11-04 06:00:38,519 36799 INFO odoo werkzeug: 127.0.0.1 - - [04/Nov/2024 06:00:38] "GET /odoo HTTP/1.1" 303 - 1 0.001 0.006
+2024-11-04 06:00:38,630 36799 INFO odoo werkzeug: 127.0.0.1 - - [04/Nov/2024 06:00:38] "GET /web/login?redirect=%2Fodoo%3F HTTP/1.1" 200 - 41 0.020 0.084
+2024-11-04 06:00:38,669 36799 INFO odoo werkzeug: 127.0.0.1 - - [04/Nov/2024 06:00:38] "GET /web/binary/company_logo HTTP/1.1" 304 - 2 0.001 0.003
+2024-11-04 06:00:38,688 36799 INFO odoo odoo.addons.base.models.assetsbundle: Generating a new asset bundle attachment /web/assets/c267261/web.assets_frontend_minimal.min.js (id:24) 
+2024-11-04 06:00:38,689 36799 INFO odoo odoo.addons.base.models.assetsbundle: Deleting attachments [13] (matching /web/assets/_______/web.assets_frontend_minimal.min.js) because it was replaced with /web/assets/c267261/web.assets_frontend_minimal.min.js 
+2024-11-04 06:00:38,691 36799 INFO odoo werkzeug: 127.0.0.1 - - [04/Nov/2024 06:00:38] "GET /web/assets/c267261/web.assets_frontend_minimal.min.js HTTP/1.1" 200 - 14 0.008 0.012
+2024-11-04 06:00:39,115 36799 INFO odoo werkzeug: 127.0.0.1 - - [04/Nov/2024 06:00:39] "GET /web/service-worker.js HTTP/1.1" 200 - 2 0.003 0.013
+2024-11-04 06:00:39,135 36799 INFO odoo odoo.addons.base.models.assetsbundle: Generating a new asset bundle attachment /web/assets/4a1b093/web.assets_frontend.min.css (id:25) 
+2024-11-04 06:00:39,136 36799 INFO odoo odoo.addons.base.models.assetsbundle: Deleting attachments [14] (matching /web/assets/_______/web.assets_frontend.min.css) because it was replaced with /web/assets/4a1b093/web.assets_frontend.min.css 
+2024-11-04 06:00:39,138 36799 INFO odoo werkzeug: 127.0.0.1 - - [04/Nov/2024 06:00:39] "GET /web/assets/4a1b093/web.assets_frontend.min.css HTTP/1.1" 200 - 11 0.023 0.451
+2024-11-04 06:00:39,550 36799 INFO odoo odoo.addons.base.models.assetsbundle: Generating a new asset bundle attachment /web/assets/d8dc753/web.assets_frontend_lazy.min.js (id:26) 
+2024-11-04 06:00:39,551 36799 INFO odoo odoo.addons.base.models.assetsbundle: Deleting attachments [15] (matching /web/assets/_______/web.assets_frontend_lazy.min.js) because it was replaced with /web/assets/d8dc753/web.assets_frontend_lazy.min.js 
+2024-11-04 06:00:39,554 36799 INFO odoo werkzeug: 127.0.0.1 - - [04/Nov/2024 06:00:39] "GET /web/assets/d8dc753/web.assets_frontend_lazy.min.js HTTP/1.1" 200 - 11 0.007 0.381
+2024-11-04 06:00:39,621 36799 INFO odoo werkzeug: 127.0.0.1 - - [04/Nov/2024 06:00:39] "GET /web/webclient/translations/1730700039613 HTTP/1.1" 200 - 2 0.001 0.002
+2024-11-04 06:00:41,813 36799 INFO odoo odoo.sql_db: ConnectionPool(read/write;used=3/count=6/max=64): Closed 1 connections to 'user=odoo password=xxx dbname=odoo18_db host=localhost port=5432 application_name=odoo-36799 sslmode=prefer' 
+2024-11-04 06:00:41,830 36799 INFO odoo werkzeug: 127.0.0.1 - - [04/Nov/2024 06:00:41] "GET /web/database/selector HTTP/1.1" 200 - 5 0.016 0.261
+2024-11-04 06:00:41,861 36799 INFO ? werkzeug: 127.0.0.1 - - [04/Nov/2024 06:00:41] "GET /web/static/lib/bootstrap/dist/css/bootstrap.css HTTP/1.1" 200 - 0 0.000 0.001
+2024-11-04 06:00:42,853 36799 INFO odoo werkzeug: 127.0.0.1 - - [04/Nov/2024 06:00:42] "GET /web/service-worker.js HTTP/1.1" 200 - 2 0.004 0.006
+2024-11-04 06:00:43,481 36799 INFO odoo werkzeug: 127.0.0.1 - - [04/Nov/2024 06:00:43] "GET /odoo?db=odoo18_db HTTP/1.1" 302 - 1 0.001 0.008
+2024-11-04 06:00:43,535 36799 ERROR ? odoo.modules.loading: Database odoo18_db not initialized, you can force it with `-i base` 
+2024-11-04 06:00:43,535 36799 INFO ? odoo.modules.registry: Registry loaded in 0.046s 
+2024-11-04 06:00:43,538 36799 ERROR odoo18_db odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/modules/registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-04 06:00:43,540 36799 INFO odoo18_db werkzeug: 127.0.0.1 - - [04/Nov/2024 06:00:43] "GET /odoo?db=odoo18_db HTTP/1.1" 500 - 19 0.035 0.017
+2024-11-04 06:00:43,580 36799 ERROR odoo18_db odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/modules/registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-04 06:00:43,581 36799 INFO odoo18_db werkzeug: 127.0.0.1 - - [04/Nov/2024 06:00:43] "GET /favicon.ico HTTP/1.1" 500 - 1 0.000 0.003
+2024-11-04 06:00:45,087 36799 ERROR odoo18_db odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/modules/registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-04 06:00:45,088 36799 INFO odoo18_db werkzeug: 127.0.0.1 - - [04/Nov/2024 06:00:45] "GET /web/service-worker.js HTTP/1.1" 500 - 1 0.001 0.005
+2024-11-04 06:00:48,078 36799 ERROR odoo18_db odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/modules/registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-04 06:00:48,079 36799 INFO odoo18_db werkzeug: 127.0.0.1 - - [04/Nov/2024 06:00:48] "GET /web/database/selector HTTP/1.1" 500 - 1 0.001 0.003
+2024-11-04 06:00:48,107 36799 ERROR odoo18_db odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/modules/registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-04 06:00:48,108 36799 INFO odoo18_db werkzeug: 127.0.0.1 - - [04/Nov/2024 06:00:48] "GET /favicon.ico HTTP/1.1" 500 - 1 0.001 0.003
+2024-11-04 06:00:49,767 36799 ERROR odoo18_db odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/modules/registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-04 06:00:49,768 36799 INFO odoo18_db werkzeug: 127.0.0.1 - - [04/Nov/2024 06:00:49] "GET /web/webclient/translations/1730700049756 HTTP/1.1" 500 - 1 0.001 0.004
+2024-11-04 06:00:52,052 36799 ERROR odoo18_db odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/modules/registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-04 06:00:52,054 36799 INFO odoo18_db werkzeug: 127.0.0.1 - - [04/Nov/2024 06:00:52] "GET /web/login?redirect=%2Fodoo%3F HTTP/1.1" 500 - 1 0.001 0.004
+2024-11-04 06:00:52,078 36799 ERROR odoo18_db odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/modules/registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-04 06:00:52,078 36799 INFO odoo18_db werkzeug: 127.0.0.1 - - [04/Nov/2024 06:00:52] "GET /favicon.ico HTTP/1.1" 500 - 1 0.001 0.002
+2024-11-04 06:00:53,022 36799 ERROR odoo18_db odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/modules/registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-04 06:00:53,022 36799 INFO odoo18_db werkzeug: 127.0.0.1 - - [04/Nov/2024 06:00:53] "GET /bus/websocket_worker_bundle?v=18.0-2 HTTP/1.1" 500 - 1 0.001 0.002
+2024-11-04 06:00:53,050 36799 ERROR odoo18_db odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/modules/registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-04 06:00:53,050 36799 ERROR odoo18_db odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/modules/registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-04 06:00:53,050 36799 ERROR odoo18_db odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/modules/registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-04 06:00:53,050 36799 INFO odoo18_db werkzeug: 127.0.0.1 - - [04/Nov/2024 06:00:53] "GET /web/manifest.webmanifest HTTP/1.1" 500 - 1 0.001 0.019
+2024-11-04 06:00:53,051 36799 INFO odoo18_db werkzeug: 127.0.0.1 - - [04/Nov/2024 06:00:53] "GET /bus/websocket_worker_bundle?v=18.0-2 HTTP/1.1" 500 - 1 0.002 0.017
+2024-11-04 06:00:53,051 36799 INFO odoo18_db werkzeug: 127.0.0.1 - - [04/Nov/2024 06:00:53] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 500 - 1 0.002 0.015
+2024-11-04 06:00:53,051 36799 ERROR odoo18_db odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/modules/registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-04 06:00:53,052 36799 INFO odoo18_db werkzeug: 127.0.0.1 - - [04/Nov/2024 06:00:53] "POST /web/action/load HTTP/1.1" 500 - 1 0.002 0.015
+2024-11-04 06:00:54,571 36799 ERROR odoo18_db odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/modules/registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-04 06:00:54,572 36799 INFO odoo18_db werkzeug: 127.0.0.1 - - [04/Nov/2024 06:00:54] "GET /web/service-worker.js HTTP/1.1" 500 - 1 0.001 0.003
+2024-11-04 06:00:55,065 36799 ERROR odoo18_db odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/modules/registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-04 06:00:55,066 36799 INFO odoo18_db werkzeug: 127.0.0.1 - - [04/Nov/2024 06:00:55] "POST /web/webclient/version_info HTTP/1.1" 500 - 1 0.001 0.003
+2024-11-04 06:00:57,415 36799 ERROR odoo18_db odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/modules/registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-04 06:00:57,416 36799 INFO odoo18_db werkzeug: 127.0.0.1 - - [04/Nov/2024 06:00:57] "GET /web/session/logout HTTP/1.1" 500 - 1 0.001 0.004
+2024-11-04 06:00:57,455 36799 ERROR odoo18_db odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/modules/registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-04 06:00:57,455 36799 INFO odoo18_db werkzeug: 127.0.0.1 - - [04/Nov/2024 06:00:57] "GET /favicon.ico HTTP/1.1" 500 - 1 0.001 0.003
+2024-11-04 06:01:12,074 36799 ERROR odoo18_db odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/modules/registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-04 06:01:12,075 36799 INFO odoo18_db werkzeug: 127.0.0.1 - - [04/Nov/2024 06:01:12] "GET /odoo/apps HTTP/1.1" 500 - 1 0.001 0.004
+2024-11-04 06:01:12,157 36799 ERROR odoo18_db odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/modules/registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-04 06:01:12,158 36799 INFO odoo18_db werkzeug: 127.0.0.1 - - [04/Nov/2024 06:01:12] "GET /favicon.ico HTTP/1.1" 500 - 1 0.006 0.012
+2024-11-04 06:01:13,623 36799 ERROR odoo18_db odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/modules/registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-04 06:01:13,624 36799 INFO odoo18_db werkzeug: 127.0.0.1 - - [04/Nov/2024 06:01:13] "GET /web/service-worker.js HTTP/1.1" 500 - 1 0.001 0.003
+2024-11-04 06:01:30,789 36799 INFO ? odoo.service.server: Initiating shutdown 
+2024-11-04 06:01:30,790 36799 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2024-11-04 06:01:31,160 36799 INFO ? odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 10 connections  
+2024-11-04 06:01:36,067 36909 INFO ? odoo: Odoo version 18.0 
+2024-11-04 06:01:36,067 36909 INFO ? odoo: Using configuration file at /Users/guidowilliam/Documents/project/odooAPI/odoo.conf 
+2024-11-04 06:01:36,067 36909 INFO ? odoo: addons paths: ['/Users/guidowilliam/Documents/project/odooAPI/odoo/addons', '/Users/guidowilliam/Library/Application Support/Odoo/addons/18.0', '/Users/guidowilliam/Documents/project/odooAPI/addons'] 
+2024-11-04 06:01:36,067 36909 INFO ? odoo: database: odoo@localhost:5432 
+2024-11-04 06:01:36,112 36909 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2024-11-04 06:01:36,190 36909 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltoimage binary at /usr/local/bin/wkhtmltoimage 
+2024-11-04 06:01:36,302 36909 INFO ? odoo.service.server: HTTP service (werkzeug) running on 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa:8069 
+2024-11-04 06:01:37,638 36909 ERROR ? odoo.modules.loading: Database odoo18_db not initialized, you can force it with `-i base` 
+2024-11-04 06:01:37,641 36909 INFO ? odoo.modules.registry: Registry loaded in 0.023s 
+2024-11-04 06:01:37,643 36909 ERROR odoo18_db odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/modules/registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-04 06:01:37,645 36909 INFO odoo18_db werkzeug: 127.0.0.1 - - [04/Nov/2024 06:01:37] "GET /odoo/apps HTTP/1.1" 500 - 7 0.010 0.019
+2024-11-04 06:01:37,666 36909 ERROR odoo18_db odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/modules/registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-04 06:01:37,667 36909 INFO odoo18_db werkzeug: 127.0.0.1 - - [04/Nov/2024 06:01:37] "GET /favicon.ico HTTP/1.1" 500 - 1 0.001 0.003
+2024-11-04 06:01:38,513 36909 ERROR odoo18_db odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/modules/registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-04 06:01:38,514 36909 INFO odoo18_db werkzeug: 127.0.0.1 - - [04/Nov/2024 06:01:38] "GET /odoo/apps HTTP/1.1" 500 - 1 0.001 0.003
+2024-11-04 06:01:38,542 36909 ERROR odoo18_db odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/modules/registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-04 06:01:38,543 36909 INFO odoo18_db werkzeug: 127.0.0.1 - - [04/Nov/2024 06:01:38] "GET /favicon.ico HTTP/1.1" 500 - 1 0.012 0.002
+2024-11-04 06:01:39,001 36909 ERROR odoo18_db odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/modules/registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-04 06:01:39,002 36909 INFO odoo18_db werkzeug: 127.0.0.1 - - [04/Nov/2024 06:01:39] "GET /odoo/apps HTTP/1.1" 500 - 1 0.001 0.004
+2024-11-04 06:01:39,027 36909 ERROR odoo18_db odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/modules/registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-04 06:01:39,027 36909 INFO odoo18_db werkzeug: 127.0.0.1 - - [04/Nov/2024 06:01:39] "GET /favicon.ico HTTP/1.1" 500 - 1 0.001 0.002
+2024-11-04 06:01:39,190 36909 ERROR odoo18_db odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/modules/registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-04 06:01:39,191 36909 INFO odoo18_db werkzeug: 127.0.0.1 - - [04/Nov/2024 06:01:39] "GET /odoo/apps HTTP/1.1" 500 - 1 0.001 0.008
+2024-11-04 06:01:39,192 36909 ERROR odoo18_db odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/modules/registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-04 06:01:39,193 36909 INFO odoo18_db werkzeug: 127.0.0.1 - - [04/Nov/2024 06:01:39] "GET /web/service-worker.js HTTP/1.1" 500 - 1 0.001 0.007
+2024-11-04 06:01:39,212 36909 ERROR odoo18_db odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/modules/registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-04 06:01:39,212 36909 INFO odoo18_db werkzeug: 127.0.0.1 - - [04/Nov/2024 06:01:39] "GET /favicon.ico HTTP/1.1" 500 - 1 0.001 0.002
+2024-11-04 06:01:39,343 36909 ERROR odoo18_db odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/modules/registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-04 06:01:39,343 36909 INFO odoo18_db werkzeug: 127.0.0.1 - - [04/Nov/2024 06:01:39] "GET /odoo/apps HTTP/1.1" 500 - 1 0.000 0.002
+2024-11-04 06:01:39,362 36909 ERROR odoo18_db odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/modules/registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-04 06:01:39,363 36909 INFO odoo18_db werkzeug: 127.0.0.1 - - [04/Nov/2024 06:01:39] "GET /favicon.ico HTTP/1.1" 500 - 1 0.001 0.002
+2024-11-04 06:01:40,889 36909 ERROR odoo18_db odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/modules/registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-04 06:01:40,890 36909 INFO odoo18_db werkzeug: 127.0.0.1 - - [04/Nov/2024 06:01:40] "GET /web/service-worker.js HTTP/1.1" 500 - 1 0.002 0.004
+2024-11-04 06:01:45,182 36909 INFO ? odoo.service.server: Initiating shutdown 
+2024-11-04 06:01:45,182 36909 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2024-11-04 06:01:45,395 36909 INFO ? odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 4 connections  
+2024-11-04 06:01:47,998 36939 INFO ? odoo: Odoo version 18.0 
+2024-11-04 06:01:47,998 36939 INFO ? odoo: Using configuration file at /Users/guidowilliam/Documents/project/odooAPI/odoo.conf 
+2024-11-04 06:01:47,998 36939 INFO ? odoo: addons paths: ['/Users/guidowilliam/Documents/project/odooAPI/odoo/addons', '/Users/guidowilliam/Library/Application Support/Odoo/addons/18.0', '/Users/guidowilliam/Documents/project/odooAPI/addons'] 
+2024-11-04 06:01:47,998 36939 INFO ? odoo: database: odoo@odoo18:5432 
+2024-11-04 06:01:48,034 36939 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2024-11-04 06:01:48,053 36939 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltoimage binary at /usr/local/bin/wkhtmltoimage 
+2024-11-04 06:01:48,130 36939 INFO ? odoo.service.server: HTTP service (werkzeug) running on 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa:8069 
+2024-11-04 06:01:48,132 36939 INFO ? odoo.sql_db: Connection to the database failed 
+2024-11-04 06:01:48,134 36939 INFO ? odoo.sql_db: Connection to the database failed 
+2024-11-04 06:02:08,185 36939 INFO ? odoo.service.server: Initiating shutdown 
+2024-11-04 06:02:08,186 36939 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2024-11-04 06:02:08,671 36939 INFO ? odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 0 connections  
+2024-11-04 06:02:10,356 37043 INFO ? odoo: Odoo version 18.0 
+2024-11-04 06:02:10,356 37043 INFO ? odoo: Using configuration file at /Users/guidowilliam/Documents/project/odooAPI/odoo.conf 
+2024-11-04 06:02:10,356 37043 INFO ? odoo: addons paths: ['/Users/guidowilliam/Documents/project/odooAPI/odoo/addons', '/Users/guidowilliam/Library/Application Support/Odoo/addons/18.0', '/Users/guidowilliam/Documents/project/odooAPI/addons'] 
+2024-11-04 06:02:10,356 37043 INFO ? odoo: database: odoo@localhost:5432 
+2024-11-04 06:02:10,401 37043 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2024-11-04 06:02:10,442 37043 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltoimage binary at /usr/local/bin/wkhtmltoimage 
+2024-11-04 06:02:10,553 37043 INFO ? odoo.service.server: HTTP service (werkzeug) running on 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa:8069 
+2024-11-04 06:02:12,823 37043 ERROR ? odoo.modules.loading: Database odoo18_db not initialized, you can force it with `-i base` 
+2024-11-04 06:02:12,824 37043 INFO ? odoo.modules.registry: Registry loaded in 0.021s 
+2024-11-04 06:02:12,827 37043 ERROR odoo18_db odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/modules/registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-04 06:02:12,829 37043 INFO odoo18_db werkzeug: 127.0.0.1 - - [04/Nov/2024 06:02:12] "GET /odoo/apps HTTP/1.1" 500 - 7 0.010 0.018
+2024-11-04 06:02:12,856 37043 ERROR odoo18_db odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/modules/registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-04 06:02:12,857 37043 INFO odoo18_db werkzeug: 127.0.0.1 - - [04/Nov/2024 06:02:12] "GET /favicon.ico HTTP/1.1" 500 - 1 0.001 0.003
+2024-11-04 06:02:13,380 37043 ERROR odoo18_db odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/modules/registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-04 06:02:13,381 37043 INFO odoo18_db werkzeug: 127.0.0.1 - - [04/Nov/2024 06:02:13] "GET /odoo/apps HTTP/1.1" 500 - 1 0.001 0.002
+2024-11-04 06:02:13,407 37043 ERROR odoo18_db odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/modules/registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-04 06:02:13,408 37043 INFO odoo18_db werkzeug: 127.0.0.1 - - [04/Nov/2024 06:02:13] "GET /favicon.ico HTTP/1.1" 500 - 1 0.001 0.003
+2024-11-04 06:02:14,952 37043 ERROR odoo18_db odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/modules/registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-04 06:02:14,953 37043 INFO odoo18_db werkzeug: 127.0.0.1 - - [04/Nov/2024 06:02:14] "GET /web/service-worker.js HTTP/1.1" 500 - 1 0.001 0.003
+2024-11-04 06:03:06,532 37043 ERROR odoo18_db odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/modules/registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-04 06:03:06,533 37043 INFO odoo18_db werkzeug: 127.0.0.1 - - [04/Nov/2024 06:03:06] "GET /odoo/apps HTTP/1.1" 500 - 1 0.001 0.005
+2024-11-04 06:03:06,558 37043 ERROR odoo18_db odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/modules/registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-04 06:03:06,559 37043 INFO odoo18_db werkzeug: 127.0.0.1 - - [04/Nov/2024 06:03:06] "GET /favicon.ico HTTP/1.1" 500 - 1 0.001 0.002
+2024-11-04 06:03:07,091 37043 ERROR odoo18_db odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/modules/registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-04 06:03:07,092 37043 INFO odoo18_db werkzeug: 127.0.0.1 - - [04/Nov/2024 06:03:07] "GET /odoo/apps HTTP/1.1" 500 - 1 0.001 0.004
+2024-11-04 06:03:07,119 37043 ERROR odoo18_db odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/modules/registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-04 06:03:07,120 37043 INFO odoo18_db werkzeug: 127.0.0.1 - - [04/Nov/2024 06:03:07] "GET /favicon.ico HTTP/1.1" 500 - 1 0.001 0.003
+2024-11-04 06:03:07,249 37043 ERROR odoo18_db odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/modules/registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-04 06:03:07,250 37043 INFO odoo18_db werkzeug: 127.0.0.1 - - [04/Nov/2024 06:03:07] "GET /odoo/apps HTTP/1.1" 500 - 1 0.001 0.003
+2024-11-04 06:03:07,275 37043 ERROR odoo18_db odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/modules/registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-04 06:03:07,276 37043 INFO odoo18_db werkzeug: 127.0.0.1 - - [04/Nov/2024 06:03:07] "GET /favicon.ico HTTP/1.1" 500 - 1 0.001 0.002
+2024-11-04 06:03:08,786 37043 ERROR odoo18_db odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/modules/registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-04 06:03:08,787 37043 INFO odoo18_db werkzeug: 127.0.0.1 - - [04/Nov/2024 06:03:08] "GET /web/service-worker.js HTTP/1.1" 500 - 1 0.001 0.004
+2024-11-04 06:03:10,045 37043 ERROR odoo18_db odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/modules/registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-04 06:03:10,046 37043 INFO odoo18_db werkzeug: 127.0.0.1 - - [04/Nov/2024 06:03:10] "GET /odoo/ HTTP/1.1" 500 - 1 0.012 0.033
+2024-11-04 06:03:10,078 37043 ERROR odoo18_db odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/modules/registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-04 06:03:10,078 37043 INFO odoo18_db werkzeug: 127.0.0.1 - - [04/Nov/2024 06:03:10] "GET /favicon.ico HTTP/1.1" 500 - 1 0.001 0.002
+2024-11-04 06:03:10,592 37043 ERROR odoo18_db odoo.sql_db: bad query: b"\n            SELECT latest_version\n            FROM ir_module_module\n             WHERE name='base'\n        "
+ERROR: relation "ir_module_module" does not exist
+LINE 3:             FROM ir_module_module
+                         ^
+ 
+2024-11-04 06:03:10,593 37043 WARNING odoo18_db odoo.addons.base.models.ir_cron: Tried to poll an undefined table on database odoo18_db. 
+2024-11-04 06:03:11,581 37043 ERROR odoo18_db odoo.sql_db: bad query: b"\n            SELECT latest_version\n            FROM ir_module_module\n             WHERE name='base'\n        "
+ERROR: relation "ir_module_module" does not exist
+LINE 3:             FROM ir_module_module
+                         ^
+ 
+2024-11-04 06:03:11,582 37043 WARNING odoo18_db odoo.addons.base.models.ir_cron: Tried to poll an undefined table on database odoo18_db. 
+2024-11-04 06:03:11,623 37043 ERROR odoo18_db odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/modules/registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-04 06:03:11,623 37043 INFO odoo18_db werkzeug: 127.0.0.1 - - [04/Nov/2024 06:03:11] "GET /web/service-worker.js HTTP/1.1" 500 - 1 0.006 0.005
+2024-11-04 06:03:12,725 37043 ERROR odoo18_db odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/modules/registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-04 06:03:12,726 37043 INFO odoo18_db werkzeug: 127.0.0.1 - - [04/Nov/2024 06:03:12] "GET / HTTP/1.1" 500 - 1 0.001 0.003
+2024-11-04 06:03:12,756 37043 ERROR odoo18_db odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/modules/registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-04 06:03:12,757 37043 INFO odoo18_db werkzeug: 127.0.0.1 - - [04/Nov/2024 06:03:12] "GET /favicon.ico HTTP/1.1" 500 - 1 0.001 0.002
+2024-11-04 06:03:13,476 37043 ERROR odoo18_db odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/modules/registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-04 06:03:13,477 37043 INFO odoo18_db werkzeug: 127.0.0.1 - - [04/Nov/2024 06:03:13] "GET / HTTP/1.1" 500 - 1 0.001 0.003
+2024-11-04 06:03:13,503 37043 ERROR odoo18_db odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/modules/registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-04 06:03:13,504 37043 INFO odoo18_db werkzeug: 127.0.0.1 - - [04/Nov/2024 06:03:13] "GET /favicon.ico HTTP/1.1" 500 - 1 0.001 0.003
+2024-11-04 06:03:13,847 37043 ERROR odoo18_db odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/modules/registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-04 06:03:13,848 37043 INFO odoo18_db werkzeug: 127.0.0.1 - - [04/Nov/2024 06:03:13] "GET / HTTP/1.1" 500 - 1 0.001 0.003
+2024-11-04 06:03:13,868 37043 ERROR odoo18_db odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/modules/registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-04 06:03:13,869 37043 INFO odoo18_db werkzeug: 127.0.0.1 - - [04/Nov/2024 06:03:13] "GET /favicon.ico HTTP/1.1" 500 - 1 0.000 0.003
+2024-11-04 06:03:14,008 37043 ERROR odoo18_db odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/modules/registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-04 06:03:14,008 37043 INFO odoo18_db werkzeug: 127.0.0.1 - - [04/Nov/2024 06:03:14] "GET / HTTP/1.1" 500 - 1 0.000 0.002
+2024-11-04 06:03:14,025 37043 ERROR odoo18_db odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/modules/registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-04 06:03:14,025 37043 INFO odoo18_db werkzeug: 127.0.0.1 - - [04/Nov/2024 06:03:14] "GET /favicon.ico HTTP/1.1" 500 - 1 0.001 0.002
+2024-11-04 06:03:14,140 37043 ERROR odoo18_db odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/modules/registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-04 06:03:14,140 37043 INFO odoo18_db werkzeug: 127.0.0.1 - - [04/Nov/2024 06:03:14] "GET / HTTP/1.1" 500 - 1 0.001 0.003
+2024-11-04 06:03:14,159 37043 ERROR odoo18_db odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/modules/registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-04 06:03:14,160 37043 INFO odoo18_db werkzeug: 127.0.0.1 - - [04/Nov/2024 06:03:14] "GET /favicon.ico HTTP/1.1" 500 - 1 0.002 0.002
+2024-11-04 06:03:14,293 37043 ERROR odoo18_db odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/modules/registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-04 06:03:14,294 37043 INFO odoo18_db werkzeug: 127.0.0.1 - - [04/Nov/2024 06:03:14] "GET / HTTP/1.1" 500 - 1 0.001 0.002
+2024-11-04 06:03:14,307 37043 ERROR odoo18_db odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/modules/registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-04 06:03:14,307 37043 INFO odoo18_db werkzeug: 127.0.0.1 - - [04/Nov/2024 06:03:14] "GET /favicon.ico HTTP/1.1" 500 - 1 0.001 0.002
+2024-11-04 06:03:14,981 37043 ERROR odoo18_db odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/modules/registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-04 06:03:14,982 37043 INFO odoo18_db werkzeug: 127.0.0.1 - - [04/Nov/2024 06:03:14] "GET /favicon.ico HTTP/1.1" 500 - 1 0.001 0.002
+2024-11-04 06:03:15,602 37043 ERROR odoo18_db odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/modules/registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-04 06:03:15,602 37043 INFO odoo18_db werkzeug: 127.0.0.1 - - [04/Nov/2024 06:03:15] "GET /favicon.ico HTTP/1.1" 500 - 1 0.001 0.003
+2024-11-04 06:03:17,095 37043 ERROR odoo18_db odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/modules/registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-04 06:03:17,096 37043 INFO odoo18_db werkzeug: 127.0.0.1 - - [04/Nov/2024 06:03:17] "GET /web/service-worker.js HTTP/1.1" 500 - 1 0.001 0.003
+2024-11-04 06:03:26,743 37043 INFO ? odoo.service.server: Initiating shutdown 
+2024-11-04 06:03:26,745 37043 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2024-11-04 06:03:27,071 37043 INFO ? odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 3 connections  
+2024-11-04 06:03:31,250 37154 INFO ? odoo: Odoo version 18.0 
+2024-11-04 06:03:31,250 37154 INFO ? odoo: Using configuration file at /Users/guidowilliam/Documents/project/odooAPI/odoo.conf 
+2024-11-04 06:03:31,250 37154 INFO ? odoo: addons paths: ['/Users/guidowilliam/Documents/project/odooAPI/odoo/addons', '/Users/guidowilliam/Library/Application Support/Odoo/addons/18.0', '/Users/guidowilliam/Documents/project/odooAPI/addons'] 
+2024-11-04 06:03:31,250 37154 INFO ? odoo: database: odoo@localhost:5432 
+2024-11-04 06:03:31,296 37154 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2024-11-04 06:03:31,342 37154 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltoimage binary at /usr/local/bin/wkhtmltoimage 
+2024-11-04 06:03:31,455 37154 INFO ? odoo.service.server: HTTP service (werkzeug) running on 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa:8069 
+2024-11-04 06:03:55,186 37154 ERROR ? odoo.modules.loading: Database odoo18_db not initialized, you can force it with `-i base` 
+2024-11-04 06:03:55,188 37154 INFO ? odoo.modules.registry: Registry loaded in 0.014s 
+2024-11-04 06:03:55,189 37154 ERROR odoo18_db odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/modules/registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-04 06:03:55,192 37154 INFO odoo18_db werkzeug: 127.0.0.1 - - [04/Nov/2024 06:03:55] "GET / HTTP/1.1" 500 - 7 0.006 0.014
+2024-11-04 06:03:55,252 37154 ERROR odoo18_db odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/modules/registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-04 06:03:55,252 37154 INFO odoo18_db werkzeug: 127.0.0.1 - - [04/Nov/2024 06:03:55] "GET /favicon.ico HTTP/1.1" 500 - 1 0.001 0.002
+2024-11-04 06:04:31,477 37154 ERROR odoo18_db odoo.sql_db: bad query: b"\n            SELECT latest_version\n            FROM ir_module_module\n             WHERE name='base'\n        "
+ERROR: relation "ir_module_module" does not exist
+LINE 3:             FROM ir_module_module
+                         ^
+ 
+2024-11-04 06:04:31,478 37154 WARNING odoo18_db odoo.addons.base.models.ir_cron: Tried to poll an undefined table on database odoo18_db. 
+2024-11-04 06:04:32,489 37154 ERROR odoo18_db odoo.sql_db: bad query: b"\n            SELECT latest_version\n            FROM ir_module_module\n             WHERE name='base'\n        "
+ERROR: relation "ir_module_module" does not exist
+LINE 3:             FROM ir_module_module
+                         ^
+ 
+2024-11-04 06:04:32,490 37154 WARNING odoo18_db odoo.addons.base.models.ir_cron: Tried to poll an undefined table on database odoo18_db. 
+2024-11-04 06:04:59,017 37154 ERROR odoo18_db odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/modules/registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-04 06:04:59,018 37154 INFO odoo18_db werkzeug: 127.0.0.1 - - [04/Nov/2024 06:04:59] "GET / HTTP/1.1" 500 - 1 0.001 0.003
+2024-11-04 06:04:59,065 37154 ERROR odoo18_db odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/modules/registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-04 06:04:59,065 37154 INFO odoo18_db werkzeug: 127.0.0.1 - - [04/Nov/2024 06:04:59] "GET /favicon.ico HTTP/1.1" 500 - 1 0.024 0.008
+2024-11-04 06:05:00,030 37154 ERROR odoo18_db odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/modules/registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-04 06:05:00,031 37154 INFO odoo18_db werkzeug: 127.0.0.1 - - [04/Nov/2024 06:05:00] "GET / HTTP/1.1" 500 - 1 0.001 0.004
+2024-11-04 06:05:00,060 37154 ERROR odoo18_db odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/modules/registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-04 06:05:00,061 37154 INFO odoo18_db werkzeug: 127.0.0.1 - - [04/Nov/2024 06:05:00] "GET /favicon.ico HTTP/1.1" 500 - 1 0.002 0.003
+2024-11-04 06:05:00,264 37154 ERROR odoo18_db odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/modules/registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-04 06:05:00,266 37154 INFO odoo18_db werkzeug: 127.0.0.1 - - [04/Nov/2024 06:05:00] "GET / HTTP/1.1" 500 - 1 0.001 0.003
+2024-11-04 06:05:00,298 37154 ERROR odoo18_db odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/modules/registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-04 06:05:00,299 37154 INFO odoo18_db werkzeug: 127.0.0.1 - - [04/Nov/2024 06:05:00] "GET /favicon.ico HTTP/1.1" 500 - 1 0.012 0.004
+2024-11-04 06:05:00,451 37154 ERROR odoo18_db odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/modules/registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-04 06:05:00,452 37154 INFO odoo18_db werkzeug: 127.0.0.1 - - [04/Nov/2024 06:05:00] "GET / HTTP/1.1" 500 - 1 0.000 0.002
+2024-11-04 06:05:00,474 37154 ERROR odoo18_db odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/modules/registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-04 06:05:00,475 37154 INFO odoo18_db werkzeug: 127.0.0.1 - - [04/Nov/2024 06:05:00] "GET /favicon.ico HTTP/1.1" 500 - 1 0.001 0.003
+2024-11-04 06:05:00,593 37154 ERROR odoo18_db odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/modules/registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-04 06:05:00,594 37154 INFO odoo18_db werkzeug: 127.0.0.1 - - [04/Nov/2024 06:05:00] "GET / HTTP/1.1" 500 - 1 0.001 0.003
+2024-11-04 06:05:00,611 37154 ERROR odoo18_db odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/modules/registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-04 06:05:00,612 37154 INFO odoo18_db werkzeug: 127.0.0.1 - - [04/Nov/2024 06:05:00] "GET /favicon.ico HTTP/1.1" 500 - 1 0.001 0.003
+2024-11-04 06:05:28,689 37154 INFO ? odoo.service.server: Initiating shutdown 
+2024-11-04 06:05:28,690 37154 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2024-11-04 06:05:29,155 37154 INFO ? odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 3 connections  
+2024-11-04 06:05:34,284 37302 INFO ? odoo: Odoo version 18.0 
+2024-11-04 06:05:34,284 37302 INFO ? odoo: Using configuration file at /Users/guidowilliam/Documents/project/odooAPI/odoo.conf 
+2024-11-04 06:05:34,284 37302 INFO ? odoo: addons paths: ['/Users/guidowilliam/Documents/project/odooAPI/odoo/addons', '/Users/guidowilliam/Library/Application Support/Odoo/addons/18.0', '/Users/guidowilliam/Documents/project/odooAPI/addons'] 
+2024-11-04 06:05:34,284 37302 INFO ? odoo: database: odoo@localhost:5432 
+2024-11-04 06:05:34,337 37302 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2024-11-04 06:05:34,452 37302 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltoimage binary at /usr/local/bin/wkhtmltoimage 
+2024-11-04 06:05:34,570 37302 INFO ? odoo.service.server: HTTP service (werkzeug) running on 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa:8069 
+2024-11-04 06:05:43,445 37302 ERROR ? odoo.modules.loading: Database odoo18_db not initialized, you can force it with `-i base` 
+2024-11-04 06:05:43,450 37302 INFO ? odoo.modules.registry: Registry loaded in 0.037s 
+2024-11-04 06:05:43,452 37302 ERROR odoo18_db odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/modules/registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-04 06:05:43,456 37302 INFO odoo18_db werkzeug: 127.0.0.1 - - [04/Nov/2024 06:05:43] "GET / HTTP/1.1" 500 - 7 0.019 0.029
+2024-11-04 06:05:43,485 37302 ERROR odoo18_db odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/modules/registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-04 06:05:43,486 37302 INFO odoo18_db werkzeug: 127.0.0.1 - - [04/Nov/2024 06:05:43] "GET /favicon.ico HTTP/1.1" 500 - 1 0.000 0.003
+2024-11-04 06:05:44,454 37302 ERROR odoo18_db odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/modules/registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-04 06:05:44,455 37302 INFO odoo18_db werkzeug: 127.0.0.1 - - [04/Nov/2024 06:05:44] "GET / HTTP/1.1" 500 - 1 0.001 0.003
+2024-11-04 06:05:44,484 37302 ERROR odoo18_db odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/modules/registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-04 06:05:44,485 37302 INFO odoo18_db werkzeug: 127.0.0.1 - - [04/Nov/2024 06:05:44] "GET /favicon.ico HTTP/1.1" 500 - 1 0.001 0.002
+2024-11-04 06:05:44,764 37302 ERROR odoo18_db odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/modules/registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-04 06:05:44,765 37302 INFO odoo18_db werkzeug: 127.0.0.1 - - [04/Nov/2024 06:05:44] "GET / HTTP/1.1" 500 - 1 0.001 0.003
+2024-11-04 06:05:44,786 37302 ERROR odoo18_db odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/modules/registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-04 06:05:44,787 37302 INFO odoo18_db werkzeug: 127.0.0.1 - - [04/Nov/2024 06:05:44] "GET /favicon.ico HTTP/1.1" 500 - 1 0.001 0.003
+2024-11-04 06:05:44,960 37302 ERROR odoo18_db odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/modules/registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-04 06:05:44,960 37302 INFO odoo18_db werkzeug: 127.0.0.1 - - [04/Nov/2024 06:05:44] "GET / HTTP/1.1" 500 - 1 0.001 0.004
+2024-11-04 06:05:44,984 37302 ERROR odoo18_db odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/modules/registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-04 06:05:44,985 37302 INFO odoo18_db werkzeug: 127.0.0.1 - - [04/Nov/2024 06:05:44] "GET /favicon.ico HTTP/1.1" 500 - 1 0.001 0.003
+2024-11-04 06:06:34,589 37302 ERROR odoo18_db odoo.sql_db: bad query: b"\n            SELECT latest_version\n            FROM ir_module_module\n             WHERE name='base'\n        "
+ERROR: relation "ir_module_module" does not exist
+LINE 3:             FROM ir_module_module
+                         ^
+ 
+2024-11-04 06:06:34,590 37302 WARNING odoo18_db odoo.addons.base.models.ir_cron: Tried to poll an undefined table on database odoo18_db. 
+2024-11-04 06:06:35,604 37302 ERROR odoo18_db odoo.sql_db: bad query: b"\n            SELECT latest_version\n            FROM ir_module_module\n             WHERE name='base'\n        "
+ERROR: relation "ir_module_module" does not exist
+LINE 3:             FROM ir_module_module
+                         ^
+ 
+2024-11-04 06:06:35,605 37302 WARNING odoo18_db odoo.addons.base.models.ir_cron: Tried to poll an undefined table on database odoo18_db. 
+2024-11-04 06:07:07,210 37302 INFO ? odoo.service.server: Initiating shutdown 
+2024-11-04 06:07:07,211 37302 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2024-11-04 06:07:07,617 37302 INFO ? odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 3 connections  
+2024-11-04 06:07:09,393 37420 INFO ? odoo: Odoo version 18.0 
+2024-11-04 06:07:09,393 37420 INFO ? odoo: Using configuration file at /Users/guidowilliam/Documents/project/odooAPI/odoo.conf 
+2024-11-04 06:07:09,393 37420 INFO ? odoo: addons paths: ['/Users/guidowilliam/Documents/project/odooAPI/odoo/addons', '/Users/guidowilliam/Library/Application Support/Odoo/addons/18.0', '/Users/guidowilliam/Documents/project/odooAPI/addons'] 
+2024-11-04 06:07:09,393 37420 INFO ? odoo: database: odoo@localhost:5432 
+2024-11-04 06:07:09,437 37420 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2024-11-04 06:07:09,482 37420 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltoimage binary at /usr/local/bin/wkhtmltoimage 
+2024-11-04 06:07:09,592 37420 INFO ? odoo.service.server: HTTP service (werkzeug) running on 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa:8069 
+2024-11-04 06:07:19,072 37420 ERROR ? odoo.modules.loading: Database odoo18_db not initialized, you can force it with `-i base` 
+2024-11-04 06:07:19,074 37420 INFO ? odoo.modules.registry: Registry loaded in 0.018s 
+2024-11-04 06:07:19,076 37420 ERROR odoo18_db odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/modules/registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-04 06:07:19,078 37420 INFO odoo18_db werkzeug: 127.0.0.1 - - [04/Nov/2024 06:07:19] "GET / HTTP/1.1" 500 - 7 0.008 0.017
+2024-11-04 06:07:19,100 37420 ERROR odoo18_db odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/modules/registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-04 06:07:19,101 37420 INFO odoo18_db werkzeug: 127.0.0.1 - - [04/Nov/2024 06:07:19] "GET /favicon.ico HTTP/1.1" 500 - 1 0.001 0.003
+2024-11-04 06:07:20,129 37420 ERROR odoo18_db odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/modules/registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-04 06:07:20,131 37420 INFO odoo18_db werkzeug: 127.0.0.1 - - [04/Nov/2024 06:07:20] "GET / HTTP/1.1" 500 - 1 0.012 0.005
+2024-11-04 06:07:20,150 37420 ERROR odoo18_db odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/modules/registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-04 06:07:20,151 37420 INFO odoo18_db werkzeug: 127.0.0.1 - - [04/Nov/2024 06:07:20] "GET /favicon.ico HTTP/1.1" 500 - 1 0.001 0.002
+2024-11-04 06:07:20,316 37420 ERROR odoo18_db odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/modules/registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-04 06:07:20,316 37420 INFO odoo18_db werkzeug: 127.0.0.1 - - [04/Nov/2024 06:07:20] "GET / HTTP/1.1" 500 - 1 0.000 0.002
+2024-11-04 06:07:20,344 37420 ERROR odoo18_db odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/modules/registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-04 06:07:20,346 37420 INFO odoo18_db werkzeug: 127.0.0.1 - - [04/Nov/2024 06:07:20] "GET /favicon.ico HTTP/1.1" 500 - 1 0.001 0.003
+2024-11-04 06:07:20,474 37420 ERROR odoo18_db odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/modules/registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-04 06:07:20,475 37420 INFO odoo18_db werkzeug: 127.0.0.1 - - [04/Nov/2024 06:07:20] "GET / HTTP/1.1" 500 - 1 0.001 0.003
+2024-11-04 06:07:20,492 37420 ERROR odoo18_db odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/modules/registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-04 06:07:20,493 37420 INFO odoo18_db werkzeug: 127.0.0.1 - - [04/Nov/2024 06:07:20] "GET /favicon.ico HTTP/1.1" 500 - 1 0.001 0.003
+2024-11-04 06:07:20,600 37420 ERROR odoo18_db odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/modules/registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-04 06:07:20,601 37420 INFO odoo18_db werkzeug: 127.0.0.1 - - [04/Nov/2024 06:07:20] "GET / HTTP/1.1" 500 - 1 0.001 0.002
+2024-11-04 06:07:20,614 37420 ERROR odoo18_db odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/modules/registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-04 06:07:20,614 37420 INFO odoo18_db werkzeug: 127.0.0.1 - - [04/Nov/2024 06:07:20] "GET /favicon.ico HTTP/1.1" 500 - 1 0.001 0.002
+2024-11-04 06:08:09,622 37420 ERROR odoo18_db odoo.sql_db: bad query: b"\n            SELECT latest_version\n            FROM ir_module_module\n             WHERE name='base'\n        "
+ERROR: relation "ir_module_module" does not exist
+LINE 3:             FROM ir_module_module
+                         ^
+ 
+2024-11-04 06:08:09,622 37420 WARNING odoo18_db odoo.addons.base.models.ir_cron: Tried to poll an undefined table on database odoo18_db. 
+2024-11-04 06:08:10,641 37420 ERROR odoo18_db odoo.sql_db: bad query: b"\n            SELECT latest_version\n            FROM ir_module_module\n             WHERE name='base'\n        "
+ERROR: relation "ir_module_module" does not exist
+LINE 3:             FROM ir_module_module
+                         ^
+ 
+2024-11-04 06:08:10,642 37420 WARNING odoo18_db odoo.addons.base.models.ir_cron: Tried to poll an undefined table on database odoo18_db. 
+2024-11-04 06:08:48,460 37420 INFO ? odoo.service.server: Initiating shutdown 
+2024-11-04 06:08:48,461 37420 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2024-11-04 06:08:48,783 37420 INFO ? odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 3 connections  
+2024-11-04 06:08:58,420 37558 INFO ? odoo: Odoo version 18.0 
+2024-11-04 06:08:58,420 37558 INFO ? odoo: Using configuration file at /Users/guidowilliam/Documents/project/odooAPI/odoo.conf 
+2024-11-04 06:08:58,420 37558 INFO ? odoo: addons paths: ['/Users/guidowilliam/Documents/project/odooAPI/odoo/addons', '/Users/guidowilliam/Library/Application Support/Odoo/addons/18.0', '/Users/guidowilliam/Documents/project/odooAPI/addons'] 
+2024-11-04 06:08:58,420 37558 INFO ? odoo: database: odoo@localhost:5432 
+2024-11-04 06:08:58,463 37558 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2024-11-04 06:08:58,512 37558 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltoimage binary at /usr/local/bin/wkhtmltoimage 
+2024-11-04 06:08:58,640 37558 INFO ? odoo.service.server: HTTP service (werkzeug) running on 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa:8069 
+2024-11-04 06:09:11,544 37558 INFO ? odoo.service.server: Initiating shutdown 
+2024-11-04 06:09:11,545 37558 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2024-11-04 06:09:11,687 37558 INFO ? odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 2 connections  
+2024-11-04 06:09:25,921 37601 INFO ? odoo: Odoo version 18.0 
+2024-11-04 06:09:25,921 37601 INFO ? odoo: Using configuration file at /Users/guidowilliam/Documents/project/odooAPI/odoo.conf 
+2024-11-04 06:09:25,921 37601 INFO ? odoo: addons paths: ['/Users/guidowilliam/Documents/project/odooAPI/odoo/addons', '/Users/guidowilliam/Library/Application Support/Odoo/addons/18.0', '/Users/guidowilliam/Documents/project/odooAPI/addons'] 
+2024-11-04 06:09:25,921 37601 INFO ? odoo: database: odoo@localhost:5432 
+2024-11-04 06:09:25,967 37601 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2024-11-04 06:09:26,009 37601 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltoimage binary at /usr/local/bin/wkhtmltoimage 
+2024-11-04 06:09:26,131 37601 INFO ? odoo.service.server: HTTP service (werkzeug) running on 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa:8069 
+2024-11-04 06:09:30,745 37601 ERROR ? odoo.modules.loading: Database odoo18_db not initialized, you can force it with `-i base` 
+2024-11-04 06:09:30,746 37601 INFO ? odoo.modules.registry: Registry loaded in 0.026s 
+2024-11-04 06:09:30,747 37601 ERROR odoo18_db odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/modules/registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-04 06:09:30,750 37601 INFO odoo18_db werkzeug: 127.0.0.1 - - [04/Nov/2024 06:09:30] "GET / HTTP/1.1" 500 - 7 0.007 0.025
+2024-11-04 06:09:30,783 37601 ERROR odoo18_db odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/modules/registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-04 06:09:30,784 37601 INFO odoo18_db werkzeug: 127.0.0.1 - - [04/Nov/2024 06:09:30] "GET /favicon.ico HTTP/1.1" 500 - 1 0.012 0.003
+2024-11-04 06:09:31,685 37601 ERROR odoo18_db odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/modules/registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-04 06:09:31,686 37601 INFO odoo18_db werkzeug: 127.0.0.1 - - [04/Nov/2024 06:09:31] "GET / HTTP/1.1" 500 - 1 0.001 0.004
+2024-11-04 06:09:31,705 37601 ERROR odoo18_db odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/modules/registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-04 06:09:31,705 37601 INFO odoo18_db werkzeug: 127.0.0.1 - - [04/Nov/2024 06:09:31] "GET /favicon.ico HTTP/1.1" 500 - 1 0.001 0.002
+2024-11-04 06:09:31,854 37601 ERROR odoo18_db odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/modules/registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-04 06:09:31,855 37601 INFO odoo18_db werkzeug: 127.0.0.1 - - [04/Nov/2024 06:09:31] "GET / HTTP/1.1" 500 - 1 0.001 0.003
+2024-11-04 06:09:31,867 37601 ERROR odoo18_db odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/modules/registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-04 06:09:31,868 37601 INFO odoo18_db werkzeug: 127.0.0.1 - - [04/Nov/2024 06:09:31] "GET /favicon.ico HTTP/1.1" 500 - 1 0.001 0.003
+2024-11-04 06:09:32,016 37601 ERROR odoo18_db odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/modules/registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-04 06:09:32,017 37601 INFO odoo18_db werkzeug: 127.0.0.1 - - [04/Nov/2024 06:09:32] "GET / HTTP/1.1" 500 - 1 0.001 0.002
+2024-11-04 06:09:32,033 37601 ERROR odoo18_db odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2363, in __call__
+    response = request._serve_db()
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 1872, in _serve_db
+    rule, args = self.registry['ir.http']._match(self.httprequest.path)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/modules/registry.py", line 244, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http'
+2024-11-04 06:09:32,034 37601 INFO odoo18_db werkzeug: 127.0.0.1 - - [04/Nov/2024 06:09:32] "GET /favicon.ico HTTP/1.1" 500 - 1 0.001 0.002
+2024-11-04 06:09:40,601 37601 INFO ? odoo.service.server: Initiating shutdown 
+2024-11-04 06:09:40,602 37601 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2024-11-04 06:09:41,035 37601 INFO ? odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 3 connections  
+2024-11-04 06:10:11,044 37681 INFO ? odoo: Odoo version 18.0 
+2024-11-04 06:10:11,044 37681 INFO ? odoo: Using configuration file at /Users/guidowilliam/Documents/project/odooAPI/odoo.conf 
+2024-11-04 06:10:11,044 37681 INFO ? odoo: addons paths: ['/Users/guidowilliam/Documents/project/odooAPI/odoo/addons', '/Users/guidowilliam/Library/Application Support/Odoo/addons/18.0', '/Users/guidowilliam/Documents/project/odooAPI/addons'] 
+2024-11-04 06:10:11,044 37681 INFO ? odoo: database: odoo@localhost:5432 
+2024-11-04 06:10:11,087 37681 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2024-11-04 06:10:11,127 37681 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltoimage binary at /usr/local/bin/wkhtmltoimage 
+2024-11-04 06:10:11,281 37681 INFO ? odoo.service.server: HTTP service (werkzeug) running on 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa:8069 
+2024-11-04 06:10:16,229 37681 ERROR ? odoo.sql_db: bad query: b"SELECT name, id, state, demo AS dbdemo, latest_version AS installed_version  FROM ir_module_module WHERE name IN ('base')"
+ERROR: permission denied for table ir_module_module
+ 
+2024-11-04 06:10:16,236 37681 INFO ? odoo.modules.loading: skipping reset_modules_state, ir_module_module table does not exists 
+2024-11-04 06:10:16,237 37681 ERROR ? odoo.modules.registry: Failed to load registry 
+2024-11-04 06:10:16,237 37681 WARNING odoo18_db odoo.http: Database or registry unusable, trying without 
+Traceback (most recent call last):
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/modules/registry.py", line 104, in __new__
+    return cls.registries[db_name]
+  File "<decorator-gen-6>", line 2, in __getitem__
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/tools/func.py", line 97, in locked
+    return func(inst, *args, **kwargs)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/tools/lru.py", line 33, in __getitem__
+    a = self.d[obj]
+KeyError: 'odoo18_db'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 1485, in _open_registry
+    registry = Registry(self.db)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/modules/registry.py", line 106, in __new__
+    return cls.new(db_name)
+  File "<decorator-gen-13>", line 2, in new
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/tools/func.py", line 97, in locked
+    return func(inst, *args, **kwargs)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/modules/registry.py", line 131, in new
+    odoo.modules.load_modules(registry, force_demo, status, update_module)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/modules/loading.py", line 407, in load_modules
+    graph.add_module(cr, 'base', force)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/modules/graph.py", line 63, in add_module
+    self.add_modules(cr, [module], force)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/modules/graph.py", line 100, in add_modules
+    self.update_from_db(cr)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/modules/graph.py", line 50, in update_from_db
+    cr.execute('SELECT name, id, state, demo AS dbdemo, latest_version AS installed_version'
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/sql_db.py", line 354, in execute
+    res = self._obj.execute(query, params)
+psycopg2.errors.InsufficientPrivilege: permission denied for table ir_module_module
+
+2024-11-04 06:10:16,263 37681 INFO odoo18_db werkzeug: 127.0.0.1 - - [04/Nov/2024 06:10:16] "GET / HTTP/1.1" 303 - 7 0.018 0.044
+2024-11-04 06:10:16,306 37681 INFO ? werkzeug: 127.0.0.1 - - [04/Nov/2024 06:10:16] "GET /odoo HTTP/1.1" 303 - 2 0.007 0.015
+2024-11-04 06:10:16,695 37681 ERROR ? odoo.sql_db: bad query: b"SELECT latest_version FROM ir_module_module WHERE name='base'"
+ERROR: permission denied for table ir_module_module
+ 
+2024-11-04 06:10:16,695 37681 ERROR ? odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2378, in __call__
+    response = request._serve_nodb()
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 1852, in _serve_nodb
+    response = self.dispatcher.dispatch(rule.endpoint, args)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2083, in dispatch
+    return endpoint(**self.request.params)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 727, in route_wrapper
+    result = endpoint(self, *args, **params_ok)
+  File "/Users/guidowilliam/Documents/project/odooAPI/addons/web/controllers/database.py", line 63, in selector
+    return self._render_template(manage=False)
+  File "/Users/guidowilliam/Documents/project/odooAPI/addons/web/controllers/database.py", line 40, in _render_template
+    d['incompatible_databases'] = odoo.service.db.list_db_incompatible(d['databases'])
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/service/db.py", line 442, in list_db_incompatible
+    cr.execute("SELECT latest_version FROM ir_module_module WHERE name=%s", ('base',))
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/sql_db.py", line 354, in execute
+    res = self._obj.execute(query, params)
+psycopg2.errors.InsufficientPrivilege: permission denied for table ir_module_module
+
+2024-11-04 06:10:16,696 37681 INFO ? werkzeug: 127.0.0.1 - - [04/Nov/2024 06:10:16] "GET /web/database/selector HTTP/1.1" 500 - 5 0.009 0.372
+2024-11-04 06:10:16,745 37681 INFO ? werkzeug: 127.0.0.1 - - [04/Nov/2024 06:10:16] "GET /favicon.ico HTTP/1.1" 404 - 1 0.003 0.006
+2024-11-04 06:10:17,611 37681 ERROR ? odoo.sql_db: bad query: b"SELECT latest_version FROM ir_module_module WHERE name='base'"
+ERROR: permission denied for table ir_module_module
+ 
+2024-11-04 06:10:17,612 37681 ERROR ? odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2378, in __call__
+    response = request._serve_nodb()
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 1852, in _serve_nodb
+    response = self.dispatcher.dispatch(rule.endpoint, args)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2083, in dispatch
+    return endpoint(**self.request.params)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 727, in route_wrapper
+    result = endpoint(self, *args, **params_ok)
+  File "/Users/guidowilliam/Documents/project/odooAPI/addons/web/controllers/database.py", line 63, in selector
+    return self._render_template(manage=False)
+  File "/Users/guidowilliam/Documents/project/odooAPI/addons/web/controllers/database.py", line 40, in _render_template
+    d['incompatible_databases'] = odoo.service.db.list_db_incompatible(d['databases'])
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/service/db.py", line 442, in list_db_incompatible
+    cr.execute("SELECT latest_version FROM ir_module_module WHERE name=%s", ('base',))
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/sql_db.py", line 354, in execute
+    res = self._obj.execute(query, params)
+psycopg2.errors.InsufficientPrivilege: permission denied for table ir_module_module
+
+2024-11-04 06:10:17,612 37681 INFO ? werkzeug: 127.0.0.1 - - [04/Nov/2024 06:10:17] "GET /web/database/selector HTTP/1.1" 500 - 5 0.008 0.237
+2024-11-04 06:10:18,552 37681 ERROR ? odoo.sql_db: bad query: b"SELECT latest_version FROM ir_module_module WHERE name='base'"
+ERROR: permission denied for table ir_module_module
+ 
+2024-11-04 06:10:18,553 37681 ERROR ? odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2378, in __call__
+    response = request._serve_nodb()
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 1852, in _serve_nodb
+    response = self.dispatcher.dispatch(rule.endpoint, args)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2083, in dispatch
+    return endpoint(**self.request.params)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 727, in route_wrapper
+    result = endpoint(self, *args, **params_ok)
+  File "/Users/guidowilliam/Documents/project/odooAPI/addons/web/controllers/database.py", line 63, in selector
+    return self._render_template(manage=False)
+  File "/Users/guidowilliam/Documents/project/odooAPI/addons/web/controllers/database.py", line 40, in _render_template
+    d['incompatible_databases'] = odoo.service.db.list_db_incompatible(d['databases'])
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/service/db.py", line 442, in list_db_incompatible
+    cr.execute("SELECT latest_version FROM ir_module_module WHERE name=%s", ('base',))
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/sql_db.py", line 354, in execute
+    res = self._obj.execute(query, params)
+psycopg2.errors.InsufficientPrivilege: permission denied for table ir_module_module
+
+2024-11-04 06:10:18,553 37681 INFO ? werkzeug: 127.0.0.1 - - [04/Nov/2024 06:10:18] "GET /web/database/selector HTTP/1.1" 500 - 5 0.007 0.237
+2024-11-04 06:10:18,626 37681 INFO ? werkzeug: 127.0.0.1 - - [04/Nov/2024 06:10:18] "GET /web/service-worker.js HTTP/1.1" 404 - 1 0.003 0.005
+2024-11-04 06:10:21,304 37681 INFO ? werkzeug: 127.0.0.1 - - [04/Nov/2024 06:10:21] "GET / HTTP/1.1" 303 - 1 0.003 0.008
+2024-11-04 06:10:21,331 37681 INFO ? werkzeug: 127.0.0.1 - - [04/Nov/2024 06:10:21] "GET /odoo HTTP/1.1" 303 - 2 0.007 0.016
+2024-11-04 06:10:21,572 37681 ERROR ? odoo.sql_db: bad query: b"SELECT latest_version FROM ir_module_module WHERE name='base'"
+ERROR: permission denied for table ir_module_module
+ 
+2024-11-04 06:10:21,572 37681 ERROR ? odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2378, in __call__
+    response = request._serve_nodb()
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 1852, in _serve_nodb
+    response = self.dispatcher.dispatch(rule.endpoint, args)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2083, in dispatch
+    return endpoint(**self.request.params)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 727, in route_wrapper
+    result = endpoint(self, *args, **params_ok)
+  File "/Users/guidowilliam/Documents/project/odooAPI/addons/web/controllers/database.py", line 63, in selector
+    return self._render_template(manage=False)
+  File "/Users/guidowilliam/Documents/project/odooAPI/addons/web/controllers/database.py", line 40, in _render_template
+    d['incompatible_databases'] = odoo.service.db.list_db_incompatible(d['databases'])
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/service/db.py", line 442, in list_db_incompatible
+    cr.execute("SELECT latest_version FROM ir_module_module WHERE name=%s", ('base',))
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/sql_db.py", line 354, in execute
+    res = self._obj.execute(query, params)
+psycopg2.errors.InsufficientPrivilege: permission denied for table ir_module_module
+
+2024-11-04 06:10:21,573 37681 INFO ? werkzeug: 127.0.0.1 - - [04/Nov/2024 06:10:21] "GET /web/database/selector HTTP/1.1" 500 - 5 0.006 0.231
+2024-11-04 06:10:23,139 37681 ERROR ? odoo.sql_db: bad query: b"SELECT latest_version FROM ir_module_module WHERE name='base'"
+ERROR: permission denied for table ir_module_module
+ 
+2024-11-04 06:10:23,140 37681 ERROR ? odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2378, in __call__
+    response = request._serve_nodb()
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 1852, in _serve_nodb
+    response = self.dispatcher.dispatch(rule.endpoint, args)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2083, in dispatch
+    return endpoint(**self.request.params)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 727, in route_wrapper
+    result = endpoint(self, *args, **params_ok)
+  File "/Users/guidowilliam/Documents/project/odooAPI/addons/web/controllers/database.py", line 63, in selector
+    return self._render_template(manage=False)
+  File "/Users/guidowilliam/Documents/project/odooAPI/addons/web/controllers/database.py", line 40, in _render_template
+    d['incompatible_databases'] = odoo.service.db.list_db_incompatible(d['databases'])
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/service/db.py", line 442, in list_db_incompatible
+    cr.execute("SELECT latest_version FROM ir_module_module WHERE name=%s", ('base',))
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/sql_db.py", line 354, in execute
+    res = self._obj.execute(query, params)
+psycopg2.errors.InsufficientPrivilege: permission denied for table ir_module_module
+
+2024-11-04 06:10:23,140 37681 INFO ? werkzeug: 127.0.0.1 - - [04/Nov/2024 06:10:23] "GET /web/database/selector HTTP/1.1" 500 - 5 0.009 0.233
+2024-11-04 06:10:24,167 37681 INFO ? werkzeug: 127.0.0.1 - - [04/Nov/2024 06:10:24] "GET /web/service-worker.js HTTP/1.1" 404 - 1 0.004 0.015
+2024-11-04 06:11:03,507 37681 ERROR ? odoo.sql_db: bad query: b"SELECT latest_version FROM ir_module_module WHERE name='base'"
+ERROR: permission denied for table ir_module_module
+ 
+2024-11-04 06:11:03,508 37681 ERROR ? odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2378, in __call__
+    response = request._serve_nodb()
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 1852, in _serve_nodb
+    response = self.dispatcher.dispatch(rule.endpoint, args)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2083, in dispatch
+    return endpoint(**self.request.params)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 727, in route_wrapper
+    result = endpoint(self, *args, **params_ok)
+  File "/Users/guidowilliam/Documents/project/odooAPI/addons/web/controllers/database.py", line 63, in selector
+    return self._render_template(manage=False)
+  File "/Users/guidowilliam/Documents/project/odooAPI/addons/web/controllers/database.py", line 40, in _render_template
+    d['incompatible_databases'] = odoo.service.db.list_db_incompatible(d['databases'])
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/service/db.py", line 442, in list_db_incompatible
+    cr.execute("SELECT latest_version FROM ir_module_module WHERE name=%s", ('base',))
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/sql_db.py", line 354, in execute
+    res = self._obj.execute(query, params)
+psycopg2.errors.InsufficientPrivilege: permission denied for table ir_module_module
+
+2024-11-04 06:11:03,508 37681 INFO ? werkzeug: 127.0.0.1 - - [04/Nov/2024 06:11:03] "GET /web/database/selector HTTP/1.1" 500 - 5 0.008 0.242
+2024-11-04 06:11:04,789 37681 ERROR ? odoo.sql_db: bad query: b"SELECT latest_version FROM ir_module_module WHERE name='base'"
+ERROR: permission denied for table ir_module_module
+ 
+2024-11-04 06:11:04,789 37681 ERROR ? odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2378, in __call__
+    response = request._serve_nodb()
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 1852, in _serve_nodb
+    response = self.dispatcher.dispatch(rule.endpoint, args)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2083, in dispatch
+    return endpoint(**self.request.params)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 727, in route_wrapper
+    result = endpoint(self, *args, **params_ok)
+  File "/Users/guidowilliam/Documents/project/odooAPI/addons/web/controllers/database.py", line 63, in selector
+    return self._render_template(manage=False)
+  File "/Users/guidowilliam/Documents/project/odooAPI/addons/web/controllers/database.py", line 40, in _render_template
+    d['incompatible_databases'] = odoo.service.db.list_db_incompatible(d['databases'])
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/service/db.py", line 442, in list_db_incompatible
+    cr.execute("SELECT latest_version FROM ir_module_module WHERE name=%s", ('base',))
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/sql_db.py", line 354, in execute
+    res = self._obj.execute(query, params)
+psycopg2.errors.InsufficientPrivilege: permission denied for table ir_module_module
+
+2024-11-04 06:11:04,789 37681 INFO ? werkzeug: 127.0.0.1 - - [04/Nov/2024 06:11:04] "GET /web/database/selector HTTP/1.1" 500 - 5 0.006 0.239
+2024-11-04 06:11:05,702 37681 ERROR ? odoo.sql_db: bad query: b"SELECT latest_version FROM ir_module_module WHERE name='base'"
+ERROR: permission denied for table ir_module_module
+ 
+2024-11-04 06:11:05,702 37681 ERROR ? odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2378, in __call__
+    response = request._serve_nodb()
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 1852, in _serve_nodb
+    response = self.dispatcher.dispatch(rule.endpoint, args)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 2083, in dispatch
+    return endpoint(**self.request.params)
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/http.py", line 727, in route_wrapper
+    result = endpoint(self, *args, **params_ok)
+  File "/Users/guidowilliam/Documents/project/odooAPI/addons/web/controllers/database.py", line 63, in selector
+    return self._render_template(manage=False)
+  File "/Users/guidowilliam/Documents/project/odooAPI/addons/web/controllers/database.py", line 40, in _render_template
+    d['incompatible_databases'] = odoo.service.db.list_db_incompatible(d['databases'])
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/service/db.py", line 442, in list_db_incompatible
+    cr.execute("SELECT latest_version FROM ir_module_module WHERE name=%s", ('base',))
+  File "/Users/guidowilliam/Documents/project/odooAPI/odoo/sql_db.py", line 354, in execute
+    res = self._obj.execute(query, params)
+psycopg2.errors.InsufficientPrivilege: permission denied for table ir_module_module
+
+2024-11-04 06:11:05,702 37681 INFO ? werkzeug: 127.0.0.1 - - [04/Nov/2024 06:11:05] "GET /web/database/selector HTTP/1.1" 500 - 5 0.007 0.235
+2024-11-04 06:11:19,182 37681 INFO odoo odoo.modules.loading: loading 1 modules... 
+2024-11-04 06:11:19,191 37681 INFO odoo odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2024-11-04 06:11:19,196 37681 INFO odoo odoo.modules.loading: loading 12 modules... 
+2024-11-04 06:11:19,343 37681 INFO odoo odoo.modules.loading: 12 modules loaded in 0.15s, 0 queries (+0 extra) 
+2024-11-04 06:11:19,358 37681 INFO odoo odoo.modules.loading: Modules loaded. 
+2024-11-04 06:11:19,360 37681 INFO odoo odoo.modules.registry: Registry loaded in 0.200s 
+2024-11-04 06:11:19,361 37681 INFO odoo odoo.addons.base.models.ir_http: Generating routing map for key None 
+2024-11-04 06:11:19,593 37681 INFO odoo werkzeug: 127.0.0.1 - - [04/Nov/2024 06:11:19] "GET /web/database/selector HTTP/1.1" 200 - 22 0.033 0.414
+2024-11-04 06:11:19,869 37681 INFO odoo werkzeug: 127.0.0.1 - - [04/Nov/2024 06:11:19] "GET /web/database/selector HTTP/1.1" 200 - 5 0.008 0.222
+2024-11-04 06:11:20,101 37681 INFO odoo werkzeug: 127.0.0.1 - - [04/Nov/2024 06:11:20] "GET /web/database/selector HTTP/1.1" 200 - 5 0.008 0.252
+2024-11-04 06:11:22,044 37681 INFO odoo werkzeug: 127.0.0.1 - - [04/Nov/2024 06:11:22] "GET /odoo?db=odoo HTTP/1.1" 303 - 2 0.004 0.012
+2024-11-04 06:11:22,206 37681 INFO odoo werkzeug: 127.0.0.1 - - [04/Nov/2024 06:11:22] "GET /web/login?redirect=%2Fodoo%3Fdb%3Dodoo HTTP/1.1" 200 - 57 0.049 0.108
+2024-11-04 06:11:22,258 37681 INFO odoo werkzeug: 127.0.0.1 - - [04/Nov/2024 06:11:22] "GET /web/binary/company_logo HTTP/1.1" 304 - 3 0.005 0.008
+2024-11-04 06:11:22,312 37681 INFO odoo werkzeug: 127.0.0.1 - - [04/Nov/2024 06:11:22] "GET /web/webclient/translations/1730700682295 HTTP/1.1" 200 - 3 0.003 0.012
+2024-11-04 06:11:24,250 37681 INFO odoo odoo.addons.base.models.res_users: Login successful for db:odoo login:admin from 127.0.0.1 
+2024-11-04 06:11:24,258 37681 INFO odoo werkzeug: 127.0.0.1 - - [04/Nov/2024 06:11:24] "POST /web/login HTTP/1.1" 303 - 37 0.047 0.257
+2024-11-04 06:11:24,278 37681 INFO odoo odoo.addons.base.models.res_device: User 2 inserts device log (RPTl8CuoKZV4Pr7Up-8w3wSXqdoQsh5SLu3PnUnhV5) 
+2024-11-04 06:11:24,392 37681 INFO odoo werkzeug: 127.0.0.1 - - [04/Nov/2024 06:11:24] "GET /odoo?db=odoo HTTP/1.1" 200 - 67 0.036 0.082
+2024-11-04 06:11:24,482 37681 INFO odoo werkzeug: 127.0.0.1 - - [04/Nov/2024 06:11:24] "GET /bus/websocket_worker_bundle?v=18.0-2 HTTP/1.1" 200 - 4 0.002 0.003
+2024-11-04 06:11:24,512 37681 INFO odoo werkzeug: 127.0.0.1 - - [04/Nov/2024 06:11:24] "GET /websocket?version=18.0-2 HTTP/1.1" 101 - 1 0.001 0.016
+2024-11-04 06:11:24,520 37681 INFO odoo werkzeug: 127.0.0.1 - - [04/Nov/2024 06:11:24] "POST /web/action/load HTTP/1.1" 200 - 10 0.017 0.012
+2024-11-04 06:11:24,523 37681 INFO odoo werkzeug: 127.0.0.1 - - [04/Nov/2024 06:11:24] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 7 0.013 0.020
+2024-11-04 06:11:24,526 37681 INFO odoo werkzeug: 127.0.0.1 - - [04/Nov/2024 06:11:24] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 200 - 8 0.014 0.017
+2024-11-04 06:11:24,593 37681 INFO odoo werkzeug: 127.0.0.1 - - [04/Nov/2024 06:11:24] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 57 0.044 0.021
+2024-11-04 06:11:24,600 37681 INFO odoo werkzeug: 127.0.0.1 - - [04/Nov/2024 06:11:24] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 1 0.001 0.002
+2024-11-04 06:11:24,625 37681 INFO odoo werkzeug: 127.0.0.1 - - [04/Nov/2024 06:11:24] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 48 0.019 0.008
+2024-11-04 06:11:24,626 37681 INFO odoo werkzeug: 127.0.0.1 - - [04/Nov/2024 06:11:24] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.005 0.022
+2024-11-04 06:11:24,827 37681 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2024-11-04 06:11:26,276 37681 INFO odoo werkzeug: 127.0.0.1 - - [04/Nov/2024 06:11:26] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.001 0.007
